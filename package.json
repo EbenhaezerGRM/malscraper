@@ -1,0 +1,25 @@
+{
+  "name": "malscraper",
+  "version": "1.0.0",
+  "description": "get anime and manga info from https://myanimelist.net",
+  "main": "api.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon api.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anime",
+    "manga",
+    "mal",
+    "myanimelist"
+  ],
+  "author": "https://github.com/EbenhaezerGRM",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.3.6",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
