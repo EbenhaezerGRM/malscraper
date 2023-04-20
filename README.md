@@ -32,28 +32,18 @@ Get data from https://myanimelist.net
 
 
 
-## Run Locally
+## Installation (Local)
 
-Clone the project
+Run the following command to clone the repository, and install the dependencies:
 
 ```bash
   git clone https://github.com/EbenhaezerGRM/malscraper
-```
-
-Go to the project directory
-
-```bash
   cd malscraper
-```
-
-Start the server
-
-```bash
+  npm install
   npm start
 ```
 
-By default the server is running on http://localhost:3000
-
+Now the server is running on http://localhost:3000
 
 ## Routes
 
